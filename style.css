@@ -1,0 +1,213 @@
+body {
+    font-family: sans-serif;
+}
+
+
+.blueBase{
+  background-color: rgb(64, 84, 165);  
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.whiteBlock{
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    margin: 10% auto;
+    gap: 15px;
+}
+
+.blueQR{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.QR{
+    margin: 10%;
+    width: 70%;
+    height: 70%;
+}
+
+.h1Black{
+    text-align: center;
+    font-size: 18px;
+    margin: 0 20%;
+
+}
+
+.h2Grey{
+    color: grey;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 20% 20px;
+}
+
+
+.attribution{
+    font-size: 14px;
+    position: fixed;
+
+   padding-left: 10%;
+   padding-right: 10%;
+    bottom: 0;
+    color: aliceblue;
+}
+
+.aLink{
+    font-style: none;
+    color:aliceblue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media  (min-width: 425px) {
+
+    .whiteBlock{
+        padding: 0 5%;
+   
+    }
+.h1Black{
+    font-size: 18px;
+    margin: 0 10% 5%;
+
+}
+
+
+.attribution{
+    font-size: 14px;
+    position: fixed;
+ margin-top: 10px;
+   padding: 0 10%;
+
+    bottom: 0;
+    color: aliceblue;
+}  
+}
+
+@media  (min-width: 720px) {
+    .whiteBlock{
+        
+        width: 80%;
+        height: 100%;
+        margin: 10% auto;
+    }
+    .QR{
+        margin: 10%;
+        width: 80%;
+        height: 80%;
+    }
+    .h1Black{
+        font-size: 22px;
+        margin: 0 10%;
+    
+    }
+    
+    .h2Grey{
+        font-size: 20px;
+        margin: 0 10% 20px;
+    }
+    .attribution{
+        font-size: 18px;
+       padding: 0 15%;
+    }
+       
+}
+
+@media  (min-width: 1024px) {
+    .whiteBlock{
+        width: 80%;
+        height: 100%;
+        margin: 20% auto;
+    }
+    .QR{
+        margin: 10%;
+        width: 80%;
+        height: 80%;
+    }
+    .h1Black{
+        font-size: 26px;
+        margin: 0 15%;
+    
+    }
+    
+    .h2Grey{
+        font-size: 22px;
+        margin: 0 15% 30px;
+    }
+    .attribution{
+        font-size: 18px;
+       padding: 0 30%;
+    }  
+}
+
+@media  (min-width: 1440px) {
+    .whiteBlock{
+        width: 60%;
+        height: 100%;
+        margin: 20% auto;
+    }
+    .QR{
+        margin: 10%;
+        width: 80%;
+        height: 80%;
+    }
+    .h1Black{
+        font-size: 40px;
+        font-weight: bold;
+        margin: 0 15% 20px;
+    
+    }
+    
+    .h2Grey{
+        font-size: 24px;
+        margin: 0 15% 30px;
+    }
+    .attribution{
+        font-size: 20px;
+
+    } 
+}
+
+@media  (min-width: 2000px) {
+ 
+    .QR{
+        margin: 10% auto;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .h1Black{
+        font-size: 50px;
+        margin: 5% 10% 10% ;
+    
+    }
+    
+    .h2Grey{
+         font-size: 45px;
+        margin: 0 10% 10%;
+    }
+    
+    
+    .whiteBlock{
+        width: 50%;
+        height: 50%;
+        margin: 10% auto;
+        gap: 15px;
+    }
+
+    .attribution{
+        font-size: 30px;
+        padding: 0;
+        width: 100%;
+    } 
+}
